@@ -1,0 +1,38 @@
+body {
+    background-color: orange;
+}
+
+/* Nisam samo razumela da li je trebalo da se
+oboji pozadina stranice ili pozadina h2 
+U slucaju da je trebalo da se oboji pozadina h2 
+stavila bih background-color: orange; kao vrednost
+za .naslov */
+
+.naslov {
+    text-align: center;
+    color: blue;
+}
+
+img {
+    width: 400px;
+    height: 300px;
+    border: double yellow 10px;
+}
+
+p:nth-child(odd) {
+    color: violet;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+p:nth-child(2) {
+    color: brown;
+}
+
+p a {
+    color: red;
+}
+
+p a:hover {
+    color: green;
+}
