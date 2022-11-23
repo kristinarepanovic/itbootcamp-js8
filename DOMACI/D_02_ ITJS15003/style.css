@@ -25,7 +25,7 @@ p:nth-child(odd) {
     font-size: 24px;
 }
 
-p {
+p:first-of-type {
     color: brown;
 }
 
